@@ -1,0 +1,18 @@
+Process: Balance
+Date: 15.06.2026 14:01:22Process: Balance
+Date: 15.06.2026 14:05:11
+
+Process: Cash
+Date: 15.06.2026 14:05:50
+
+Process: Balance
+Date: 15.06.2026 14:05:56
+
+Process: Balance
+Date: 15.06.2026 14:14:52
+
+Process: Cash
+Date: 15.06.2026 14:15:08
+
+Process: Cash
+Date: 15.06.2026 14:15:35
