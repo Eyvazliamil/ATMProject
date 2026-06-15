@@ -1,0 +1,119 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ASUS\\source\\repos\\For_C#\\PetShopManagementSystem\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6006394F-DEE7-1B21-6E5E-EF7B2A99C274}|PetShopManagementSystem\\PetShopManagementSystem.csproj|c:\\users\\asus\\source\\repos\\for_c#\\petshopmanagementsystem\\petshopmanagementsystem\\petshopmanagementsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6006394F-DEE7-1B21-6E5E-EF7B2A99C274}|PetShopManagementSystem\\PetShopManagementSystem.csproj|solutionrelative:petshopmanagementsystem\\petshopmanagementsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6006394F-DEE7-1B21-6E5E-EF7B2A99C274}|PetShopManagementSystem\\PetShopManagementSystem.csproj|c:\\users\\asus\\source\\repos\\for_c#\\petshopmanagementsystem\\petshopmanagementsystem\\fish.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6006394F-DEE7-1B21-6E5E-EF7B2A99C274}|PetShopManagementSystem\\PetShopManagementSystem.csproj|solutionrelative:petshopmanagementsystem\\fish.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6006394F-DEE7-1B21-6E5E-EF7B2A99C274}|PetShopManagementSystem\\PetShopManagementSystem.csproj|c:\\users\\asus\\source\\repos\\for_c#\\petshopmanagementsystem\\petshopmanagementsystem\\cat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6006394F-DEE7-1B21-6E5E-EF7B2A99C274}|PetShopManagementSystem\\PetShopManagementSystem.csproj|solutionrelative:petshopmanagementsystem\\cat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6006394F-DEE7-1B21-6E5E-EF7B2A99C274}|PetShopManagementSystem\\PetShopManagementSystem.csproj|c:\\users\\asus\\source\\repos\\for_c#\\petshopmanagementsystem\\petshopmanagementsystem\\animal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6006394F-DEE7-1B21-6E5E-EF7B2A99C274}|PetShopManagementSystem\\PetShopManagementSystem.csproj|solutionrelative:petshopmanagementsystem\\animal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6006394F-DEE7-1B21-6E5E-EF7B2A99C274}|PetShopManagementSystem\\PetShopManagementSystem.csproj|c:\\users\\asus\\source\\repos\\for_c#\\petshopmanagementsystem\\petshopmanagementsystem\\dog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6006394F-DEE7-1B21-6E5E-EF7B2A99C274}|PetShopManagementSystem\\PetShopManagementSystem.csproj|solutionrelative:petshopmanagementsystem\\dog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PetShopManagementSystem.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\For_C#\\PetShopManagementSystem\\PetShopManagementSystem\\PetShopManagementSystem.cs",
+              "RelativeDocumentMoniker": "PetShopManagementSystem\\PetShopManagementSystem.cs",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\For_C#\\PetShopManagementSystem\\PetShopManagementSystem\\PetShopManagementSystem.cs",
+              "RelativeToolTip": "PetShopManagementSystem\\PetShopManagementSystem.cs",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAowGQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-12T11:55:39.762Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Cat.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\For_C#\\PetShopManagementSystem\\PetShopManagementSystem\\Cat.cs",
+              "RelativeDocumentMoniker": "PetShopManagementSystem\\Cat.cs",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\For_C#\\PetShopManagementSystem\\PetShopManagementSystem\\Cat.cs",
+              "RelativeToolTip": "PetShopManagementSystem\\Cat.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAIwB8AAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-13T19:20:58.807Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Fish.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\For_C#\\PetShopManagementSystem\\PetShopManagementSystem\\Fish.cs",
+              "RelativeDocumentMoniker": "PetShopManagementSystem\\Fish.cs",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\For_C#\\PetShopManagementSystem\\PetShopManagementSystem\\Fish.cs",
+              "RelativeToolTip": "PetShopManagementSystem\\Fish.cs",
+              "ViewState": "AgIAAB8AAAAAbaetEaELwAoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-12T16:12:14.521Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Dog.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\For_C#\\PetShopManagementSystem\\PetShopManagementSystem\\Dog.cs",
+              "RelativeDocumentMoniker": "PetShopManagementSystem\\Dog.cs",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\For_C#\\PetShopManagementSystem\\PetShopManagementSystem\\Dog.cs",
+              "RelativeToolTip": "PetShopManagementSystem\\Dog.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAiwEkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-12T16:05:42.807Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Animal.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\For_C#\\PetShopManagementSystem\\PetShopManagementSystem\\Animal.cs",
+              "RelativeDocumentMoniker": "PetShopManagementSystem\\Animal.cs",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\For_C#\\PetShopManagementSystem\\PetShopManagementSystem\\Animal.cs",
+              "RelativeToolTip": "PetShopManagementSystem\\Animal.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAIwBAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-12T16:06:15.389Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
