@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
@@ -51,15 +51,8 @@ namespace PetShopManagementSystem
                 Console.WriteLine($"{Nickname} is hungry, give {Nickname} some food.");
             else
                 Console.WriteLine($"{Nickname} is playing.");
-        }
-        public void Show()
-        {
-            Console.WriteLine($"Nickname: {Nickname}");
-            Console.WriteLine($"Energy: {Energy}");
-            Console.WriteLine($"MealQuantity: {MealQuantity}");
-            Console.WriteLine($"Price: {Price}");
-        }
-        public void ShowMoreInfo()
+        } 
+        public override void ShowMoreInfo()
         {
             Console.WriteLine($"Nickname: {Nickname}");
             Console.WriteLine($"Energy: {Energy}");
@@ -68,12 +61,6 @@ namespace PetShopManagementSystem
             Console.WriteLine($"Age: {Age}");
             Console.WriteLine($"Gender: {(Gender ? "Male" : "Female")}");
         }
-
-        public void RemoveByNickName()
-        {
-
-        }
-
         public string getNickName() => Nickname;
     }
 }
