@@ -1,4 +1,5 @@
-﻿using System;
+using System;
+using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
 
@@ -35,13 +36,14 @@ namespace PetShopManagementSystem
                 if (key.Key == ConsoleKey.Escape) return -1;
             }
         }
+         
         static void Main(string[] args)
-        {
+        {  
             decimal balance = 300m;
 
-            string[] insideMypets = { "Show them", "PLay" };
+            string[] insideMypets = { "Show them", "PLay", "Remove" };
             string[] animalTypes = { "Cats", "Dogs", "Fish" }; 
-            string[] playMenu = { "Eat", "Sleep", "Play", "Show More Information" }; 
+            string[] playMenu = { "Eat", "Play", "Sleep", "Show More Information" }; 
             string[] mainMenu = { "Buy pets", "My pets", "Balance", "Exit" }; 
 
             short indMyPtes = 0;
@@ -103,8 +105,8 @@ namespace PetShopManagementSystem
                         {
                             if (indMyPtes == 0)
                             {
-                                Console.Clear();
-                                Console.Write("=== My Pets ===\nEmpty.");
+                                Console.Clear(); 
+                                Console.Write("=== My Pets ===\nEmpty."); 
                                 Console.ReadKey(true);
                             }
 
@@ -124,8 +126,10 @@ namespace PetShopManagementSystem
                         else if(indInsideMypets == 1)  
                         {
                             if (indMyPtes == 0)
-                            { 
+                            {
+                                Console.ForegroundColor = ConsoleColor.DarkRed;
                                 Console.Write("Please buy a pet.");
+                                Console.ResetColor();
                                 Console.ReadKey(true);
                             }
                             else
@@ -147,7 +151,37 @@ namespace PetShopManagementSystem
                                     Console.ReadKey(true);
                                 }
                             }
-                        } 
+                        }
+
+                        else if (indInsideMypets == 2)
+                        {
+                            if (indMyPtes == 0)
+                            {
+                                Console.ForegroundColor = ConsoleColor.DarkRed;
+                                Console.Write("You don't have enough pet to remove.");
+                                Console.ResetColor();
+                                Console.ReadKey(true);
+                            }
+                            else
+                            { 
+                            short indPetSelected = ShowMenu(Array.ConvertAll(myPets.Take(indMyPtes).ToArray(), a => a.GetName()), "=== Remove Pet ===");
+
+                            if(indPetSelected != -1)
+                            {
+                                Console.WriteLine($"{myPets[indPetSelected]} successfully deleted.");
+                                List<Animal> list = myPets.ToList();
+                                list.RemoveAt(indPetSelected); 
+                                indMyPtes--; 
+
+                                myPets = new Animal[10];
+                                for (int i = 0; i < list.Count; i++)
+                                    myPets[i] = list[i];
+
+                                Console.ReadKey(true);
+                            } 
+
+                        }
+                        }
                     }
                 else if (mainSelected == 2)
                 {
@@ -162,5 +196,3 @@ namespace PetShopManagementSystem
         }
     }
 }
-
-//short indMP = ShowMenu(Array.ConvertAll(pets[indInsideMypets], a => a.GetName()), "=== Select Animal ===");
