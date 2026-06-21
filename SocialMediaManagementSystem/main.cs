@@ -65,8 +65,8 @@ namespace SocialMediaManagementSystem
 
                     if (lgInd == 0)
                     {
-                        //bool isTrue = LoginAndRegter.Login("admin.txt");
-                        //Console.ReadKey(true);
+                        bool isTrue = LoginAndRegter.Login("admin.txt");
+                        Console.ReadKey(true);
 
                         if (true)
                         {
@@ -96,8 +96,8 @@ namespace SocialMediaManagementSystem
 
                     if (lgInd == 0)
                     {
-                        //bool isTrue = LoginAndRegter.Login("user.txt");
-                        //Console.ReadKey(true); 
+                        bool isTrue = LoginAndRegter.Login("user.txt");
+                        Console.ReadKey(true); 
 
                         if (true)
                         {
